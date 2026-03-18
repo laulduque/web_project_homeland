@@ -1,0 +1,111 @@
+.content__intro {
+  max-width: 64.84%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 0 148px 132px;
+}
+.content__intro_title {
+  margin: 0;
+  max-width: 64.84%;
+  max-height: auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  margin-bottom: 39.98px;
+}
+.content__intro_cite {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  max-width: 57.65%;
+  max-height: auto;
+  margin-bottom: 10px;
+}
+.content__intro_author {
+  margin: 0;
+  text-align: right;
+  max-width: 57.18%;
+  max-height: auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 31.99px;
+}
+.content__intro_paragraph {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  max-width: 56.4%;
+  max-height: auto;
+}
+@media (max-width: 1024px) {
+  .content__intro {
+    max-width: 93.75%;
+    height: auto;
+    margin: 0 24px 88px;
+  }
+  .content__intro_title {
+    max-width: 98.19%;
+    max-height: auto;
+    font-size: 45px;
+    line-height: 1.08;
+    margin: 0 0 50px;
+    padding-right: 30px;
+  }
+  .content__intro_cite {
+    max-width: 100%;
+    max-height: auto;
+    margin: 0;
+  }
+  .content__intro_author {
+    max-width: 100%;
+    max-height: auto;
+    margin: 0 0 32px;
+  }
+  .content__intro_paragraph {
+    line-height: 163%;
+    margin: 0;
+    max-width: 100%;
+    max-height: auto;
+  }
+}
+
+@media (max-width: 544px) {
+  .content__intro {
+    max-width: 90%;
+    max-height: auto;
+    margin: 0 16px 64px;
+  }
+  .content__intro_title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 100%;
+    max-height: auto;
+    padding: 0;
+    margin: 0 0 40px;
+  }
+  .content__intro_cite {
+    max-width: 100%;
+    max-height: auto;
+    margin: 0 0 25px;
+    line-height: 1.25;
+  }
+  .content__intro_author {
+    max-width: 100%;
+    max-height: auto;
+    margin: 0 0 32px;
+  }
+  .content__intro_paragraph {
+    max-width: 100%;
+    max-height: auto;
+    margin: 0;
+  }
+}

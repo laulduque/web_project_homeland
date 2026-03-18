@@ -1,0 +1,104 @@
+.intro {
+  width: 100%;
+  max-width: 984px;
+  padding: 92px 0 118px;
+}
+
+/* Título grande (más ancho) */
+.intro__title {
+  margin: 0;
+  max-width: 830px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+/* Cita (más estrecha que el título) */
+.intro__quote {
+  margin: 40px 0 32px;
+  max-width: 732px;
+}
+
+.intro__quote-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.42;
+}
+
+.intro__quote-author {
+  margin: 16px 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.42;
+  text-align: right;
+}
+
+/* Párrafo inferior (mismo ancho que la cita) */
+.intro__text {
+  margin: 0;
+  max-width: 732px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  opacity: 0.95;
+}
+.intro__title,
+.intro__quote,
+.intro__quote-text,
+.intro__text {
+  text-align: left;
+}
+
+/* ===== Tablet (<= 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 720px;
+  }
+
+  .intro__title {
+    max-width: 720px;
+    font-size: 45px;
+    line-height: 1.09;
+  }
+
+  .intro__quote,
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+/* ===== Mobile (<= 544px) ===== */
+@media screen and (max-width: 544px) {
+  .intro {
+    max-width: 288px;
+    padding-top: 64px;
+  }
+
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .intro__quote {
+    max-width: 288px;
+    margin: 40px 0 32px;
+  }
+
+  .intro__quote-text,
+  .intro__quote-author {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+
+  .intro__quote-author {
+    margin-top: 10px;
+  }
+
+  .intro__text {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.58;
+  }
+}

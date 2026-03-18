@@ -1,0 +1,11 @@
+# macOS system files
+.DS_Store
+
+# Dossiers personnels
+../
+
+# Node, Python, autres (si besoin)
+node_modules/
+.env
+
+
