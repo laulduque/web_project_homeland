@@ -23,7 +23,7 @@ El sitio presenta sobre distintas culturas y ciudades, mostrando historias, foto
 
 ## Enlace a GitHub Pages
 
-[De Patria a Patria – Sitio Web](https://github.com/laulduque/web_project_homeland/)
+[De Patria a Patria – Sitio Web](https://laulduque.github.io/web_project_homeland/)
 
 Autor: **Laura Londono Duque**  
  Año: **2025**
