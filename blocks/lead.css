@@ -52,8 +52,9 @@
     margin: 0 0 30px;
   }
   .lead__image {
-    max-width: 100%;
-    margin: 0 0 90px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
 }
 

@@ -45,7 +45,7 @@
   display: block;
   width: 100%;
   height: auto;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   object-fit: cover;
 }
 
@@ -64,6 +64,8 @@
 }
 
 .place__button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, #ff7a00, #ffb347);
   grid-area: button;
   display: inline-flex;
   justify-content: center;
